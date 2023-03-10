@@ -13,7 +13,7 @@ body {
     color: orange;
 }
 
-.banner-heading {
+.heading {
     font-size: 50px;
     font-weight: 600;
 }
@@ -22,7 +22,24 @@ body {
     width: 600px;
 }
 
-.banner-text {
+.text {
     margin: 20px 0 30px;
     color: dimgray;
+}
+
+/*//* dream big section */
+.dream-big {
+    padding: 90px 0;
+    background-image: url(../../assets/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+/* //* experience section */
+.experience {
+    margin-bottom: 100px;
+    background-image: url(../../assets/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
