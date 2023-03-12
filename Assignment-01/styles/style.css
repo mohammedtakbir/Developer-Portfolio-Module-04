@@ -1,0 +1,34 @@
+.banner{
+    background-image: url(../assets/donation5.jpg);
+    padding: 250px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.banner::after{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(to top, rgb(0, 0, 0, .9), rgb(0, 0, 0, .1));
+    width: 100%;
+    height: 100%;
+    inset: 0;
+}
+.banner-content{
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    color: #fff;
+    max-width: 39%;
+}
+.banner-content h2{
+    font-size: 5.8rem;
+    line-height: 1.3;
+    margin-bottom: 18px;
+}
+.banner-content p{
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
